@@ -3,6 +3,13 @@ $(document).ready(function(){
     var myHref2 = $('.myHref2');
     var myHref3 = $('.myHref3');
     var myHref4 = $('.myHref4');
+
+    var myHref5 = $('.myHref5');
+    var myHref6 = $('.myHref6');
+    var myHref7 = $('.myHref7');
+    var myHref8 = $('.myHref8');
+    var myHref9 = $('.myHref9');
+    var myHref10 = $('.myHref10');
       
     myHref1.on('click',function(){
         $(location).attr('href', "https://www.linkedin.com/in/eduard-akhrymenia-34074822b");
@@ -16,6 +23,26 @@ $(document).ready(function(){
       myHref4.on('click',function(){
       $(location).attr('href', "https://github.com/Edward-Radzinski");
     });
+
+    myHref5.on('click',function(){
+      $(location).attr('href', "./SnakeGame/Game1.html");
+  });
+    myHref6.on('click',function(){
+      $(location).attr('href', "./TicTacToe/index.html");
+  });
+    myHref7.on('click',function(){
+      $(location).attr('href', "./Clicker/index.html");
+  });
+    myHref8.on('click',function(){
+    $(location).attr('href', "https://github.com/Edward-Radzinski/RocketMans");
+  });
+    myHref9.on('click',function(){
+    $(location).attr('href', "https://github.com/Edward-Radzinski/Race-The-Sun-Clone");
+  });
+    myHref10.on('click',function(){
+    $(location).attr('href', "https://github.com/Edward-Radzinski/ChickenRunner");
+  });
+
   
   
     $( ".scroll-me" ).click(function() {
